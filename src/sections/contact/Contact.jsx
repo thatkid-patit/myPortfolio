@@ -26,7 +26,7 @@ const Contact = () => {
             </FormGroup>
             <FormGroup>
                 <Label htmlFor="message" hidden>Message</Label>
-                <InputText type="message" id="message" placeholder="Message" required></InputText>
+                <InputText name="message" id="message" placeholder="Message" required></InputText>
             </FormGroup>
             <InputSubmit type="submit" value="Submit"/>
         </Form>
