@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <Container id="contact">
         <SectionTitle>Contact</SectionTitle>
-        <Form action="">
+        <Form action="https://formspree.io/f/mjkbvonb" method="post">
             <FormGroup>
                 <Label htmlFor="name" hidden>Name</Label>
                 <InputName type="text" name="name" id="name" placeholder="Name" required/>
