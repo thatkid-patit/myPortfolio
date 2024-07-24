@@ -1,7 +1,7 @@
 import React from 'react'
 import {useTheme} from '../../context/ThemeContext'
 import hero from '../../assets/hero.jpg'
-import CV from '../../assets/Resume.pdf.pdf'
+import CV from '../../assets/Patrick Lascano WebDev Resume.pdf'
 import {
     Container,
     ProfilePicContainer,

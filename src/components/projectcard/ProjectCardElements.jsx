@@ -8,6 +8,7 @@ export const Link = styled.a`
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    word-wrap: break-word;
 
     &:hover {
         transform: scale(1.05);
@@ -20,3 +21,13 @@ export const Thumbnail = styled.img`
     background-color: var(--project-card-bg);
     border-radius: 10px;
 `;
+
+export const Title = styled.h3`
+    max-width: 250px;
+    word-wrap: break-word;
+`
+
+export const Description = styled.p`
+    word-wrap: break-word;
+    max-width: 250px;
+`

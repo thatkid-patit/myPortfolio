@@ -12,21 +12,33 @@ const Skills = () => {
     <Container id="skills">
         <SectionTitle>Skills</SectionTitle>
         <SkillsContainer>
-            <SkillList skill={"HTML"}/>
-            <SkillList skill={"CSS"}/>
+            <SkillList skill={"HTML/CSS"}/>
             <SkillList skill={"Javascript"}/>
-        </SkillsContainer>
-        <Hr/>
-        <SkillsContainer>
+            <SkillList skill={"ReactJS"}/>
+            <SkillList skill={"Vite"}/>
             <SkillList skill={"Bootstrap"}/>
             <SkillList skill={"Tailwind CSS"}/>
-            <SkillList skill={"ReactJS"}/>
+            <SkillList skill={"Materialize CSS"}/>
         </SkillsContainer>
         <Hr/>
         <SkillsContainer>
             <SkillList skill={"PHP"}/>
             <SkillList skill={"Laravel"}/>
+        </SkillsContainer>
+        <Hr/>
+        <SkillsContainer>
             <SkillList skill={"MySQL"}/>
+        </SkillsContainer>
+        <Hr/>
+        <SkillsContainer>
+            <SkillList skill={"Git"}/>
+            <SkillList skill={"Github"}/>
+        </SkillsContainer>
+        <Hr/>
+        <SkillsContainer>
+            <SkillList skill={"Bash Shell"}/>
+            <SkillList skill={"VS Code"}/>
+            <SkillList skill={"Postman"}/>
         </SkillsContainer>
     </Container>
   )
