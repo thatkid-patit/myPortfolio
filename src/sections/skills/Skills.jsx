@@ -14,8 +14,7 @@ const Skills = () => {
         <SkillsContainer>
             <SkillList skill={"HTML/CSS"}/>
             <SkillList skill={"Javascript"}/>
-            <SkillList skill={"ReactJS"}/>
-            <SkillList skill={"Vite"}/>
+            <SkillList skill={"ReactJS/Vite"}/>
             <SkillList skill={"Bootstrap"}/>
             <SkillList skill={"Tailwind CSS"}/>
             <SkillList skill={"Materialize CSS"}/>
@@ -36,7 +35,6 @@ const Skills = () => {
         </SkillsContainer>
         <Hr/>
         <SkillsContainer>
-            <SkillList skill={"Bash Shell"}/>
             <SkillList skill={"VS Code"}/>
             <SkillList skill={"Postman"}/>
         </SkillsContainer>
